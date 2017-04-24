@@ -1,0 +1,69 @@
+{
+    "author": "tschrock123@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "twilight-sparkle",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Twilight Sparkle",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_45",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_18",
+                    "type": "font"
+                },
+                {
+                    "file": "images/ts_heart_color.png",
+                    "name": "BG_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Bluetooth_Color.png",
+                    "name": "BLTH_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0c.png",
+                    "name": "BATT_COLOR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0.png",
+                    "name": "BATT_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Bluetooth_BaW.png",
+                    "name": "BLTH_BAW",
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/ts_heart_bw.png",
+                    "name": "BG_BAW",
+                    "type": "png-trans"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "46f0d04e-ffa1-4d94-b0e3-bc6f5902586e",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
